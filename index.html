@@ -15,6 +15,13 @@
     />
   </head>
   <body>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn" data-modal-close><span>x</span></button>
+        <p>TEXT</p>
+      </div>
+    </div>
+
     <header class="header">
       <div class="header-cointainer">
         <p class="logo">
@@ -66,7 +73,9 @@
           dla waszego biznesu
         </h1>
 
-        <button class="main_button" type="button">Zamów usługę</button>
+        <button class="main_button" type="button" data-modal-open>
+          Zamów usługę
+        </button>
       </section>
 
       <div class="do-container">
