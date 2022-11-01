@@ -271,7 +271,9 @@ body {
   padding: 49px 45px 49px 24px;
   text-align: left;
 }
-
+.close-x {
+  fill: var(--dark-color);
+}
 .window-title h2 {
   color: #212121;
   font-family: "Roboto";
