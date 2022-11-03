@@ -659,6 +659,7 @@ body {
 .env-pos a:hover svg {
   fill: var(--logo-color);
 }
+
 .icon-envelope {
   margin-right: 10px;
 }
