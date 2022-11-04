@@ -70,7 +70,7 @@
 .is-hidden {
   transform: translateY(-100%);
   opacity: 0;
-  visibility: 0;
+  visibility: hidden;
   pointer-events: none;
 }
 
